@@ -1,0 +1,150 @@
+header img{
+ width: 8%;
+}
+body{
+  background-image: url("../images/background2.jpg");
+
+
+
+}
+h1 {
+  display: inline;
+  font-size: 350%
+
+}
+figure{
+  float:right;
+  display: inline;
+}
+figcaption{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.pName{
+  text-align: left;
+  margin-left:   7em;
+  flex-grow: 2;
+}
+
+.flex{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 2em;
+  margin-bottom: 3em;
+
+
+}
+.flex .zoom{
+padding-left: 3em;
+padding-top: 3em;
+}
+
+img{
+width:300px;
+}
+h2{
+  text-align: center;
+  margin: 0em;
+  margin-top: .5em;
+}
+.catalogue{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 2em;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+
+}
+/*contact page*/
+form{
+  background-color: rgba(155, 186, 179,.5);
+margin-left: 10%;
+margin-right: 50%;
+}
+label{
+  font-size: 20px;
+  display: block;
+}
+/*nav stuff*/
+nav{
+  float: left;
+  width: 8em;
+  border-style: solid;
+  padding-bottom: 10em;
+  background-color: #c2e4dc;
+}
+nav ul li{
+  padding: .5em .3em .5em .3em;
+  background-color: #c2e4dc;
+  text-align: center;
+}
+nav ul{
+  padding: 0em;
+  margin: 0em;
+  list-style: none;
+}
+.sublist li{
+
+padding: 0em;
+}
+/*footer stuff*/
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  height: 2em;
+  border-style:solid;
+  margin-left:  10%;
+  margin-right: 10%;
+  background-color: #c2e4dc;
+  text-align: center;
+
+
+}
+footer ul{
+  margin-top: 0em;
+  margin-left: 43%;
+    padding: 0;
+
+  list-style-type: none;
+
+}
+footer ul li{
+  float: left;
+
+}
+footer ul li a{
+  display: block;
+  text-align: center;
+  padding: .45em;
+}
+li:hover{
+  background-color: #9cb8b1;
+}
+/* item drop shadow*/
+.item{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s
+}
+.item:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.itemtext{
+  padding: .3em 0em .2em 0em
+}
+/*hover zoom*/
+.zoom{
+
+  transition: transform.2s;
+}
+.zoom:hover{
+
+  transform: scale(1.5);
+}
+
+/*link cleanup*/
+a:link{
+  text-decoration: none;
+}
