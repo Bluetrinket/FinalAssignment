@@ -2,14 +2,12 @@ header img{
  width: 8%;
 }
 body{
-  background-image: url("../images/Background2.jpg");
-
-
-
+  background-image: url("/images/Background2.jpg");
 }
 h1 {
   display: inline;
-  font-size: 350%
+  font-size: 350%;
+font-family: 'Courgette', cursive;
 
 }
 figure{
